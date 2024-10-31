@@ -25,7 +25,8 @@ namespace CoreStorage
     }
     public class TeleClass
     {
-        string Url = "https://api.telegram.org/bot6087371994:AAGX1NxyEvRBbRB29tDN5uDhNE5GAQLecMk";
+        // Enter Telegram bot API URL
+        string Url = "";
         WebClient client;
         int LastUpdateId = 0;
         TextBox textBox;
